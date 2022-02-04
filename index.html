@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html>
   <head>
+
     <title>Jesus Ambro's Portfolio</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="stylesheet.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
   </head>
   <nav id="navbar">
-    <ul>
+    <ul class="ul--list">
         <li ><a class="nav-link"href="#welcome-section">Home</a></li>
         <li ><a class="nav-link"href="#about">About</a></li>
         <li ><a  class="nav-link"href="#projects">Projects</a></li>
@@ -18,30 +22,46 @@
   </nav>
     <header id="welcome-section">
         <section class="welcome">
-      <h1>Welcome!</h1>
+            <h1>I am Jesus Ambro</h1>
+            <p>And I'm a Software Engineer and Photographer</p>
+     
+
     </section>
     </header>
-    <section id="about">
-        <h2>About</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Consequat semper viverra nam libero. Tempus egestas sed sed risus pretium quam vulputate dignissim. Sed tempus urna et pharetra pharetra. Lorem mollis aliquam ut porttitor leo a diam. Quis varius quam quisque id. Aliquet lectus proin nibh nisl condimentum. Id leo in vitae turpis massa sed. Congue eu consequat ac felis donec et odio pellentesque diam. Amet commodo nulla facilisi nullam vehicula ipsum a arcu cursus. Rutrum quisque non tellus orci. Nisl nunc mi ipsum faucibus vitae.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Consequat semper viverra nam libero. Tempus egestas sed sed risus pretium quam vulputate dignissim. Sed tempus urna et pharetra pharetra. Lorem mollis aliquam ut porttitor leo a diam. Quis varius quam quisque id. Aliquet lectus proin nibh nisl condimentum. Id leo in vitae turpis massa sed. Congue eu consequat ac felis donec et odio pellentesque diam. Amet commodo nulla facilisi nullam vehicula ipsum a arcu cursus. Rutrum quisque non tellus orci. Nisl nunc mi ipsum faucibus vitae.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Consequat semper viverra nam libero. Tempus egestas sed sed risus pretium quam vulputate dignissim. Sed tempus urna et pharetra pharetra. Lorem mollis aliquam ut porttitor leo a diam. Quis varius quam quisque id. Aliquet lectus proin nibh nisl condimentum. Id leo in vitae turpis massa sed. Congue eu consequat ac felis donec et odio pellentesque diam. Amet commodo nulla facilisi nullam vehicula ipsum a arcu cursus. Rutrum quisque non tellus orci. Nisl nunc mi ipsum faucibus vitae.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Consequat semper viverra nam libero. Tempus egestas sed sed risus pretium quam vulputate dignissim. Sed tempus urna et pharetra pharetra. Lorem mollis aliquam ut porttitor leo a diam. Quis varius quam quisque id. Aliquet lectus proin nibh nisl condimentum. Id leo in vitae turpis massa sed. Congue eu consequat ac felis donec et odio pellentesque diam. Amet commodo nulla facilisi nullam vehicula ipsum a arcu cursus. Rutrum quisque non tellus orci. Nisl nunc mi ipsum faucibus vitae.</p>
+
+    <section class="container vertical--padding" id="about">
+        <h2 class="section--title">About</h2>
+        <div class="about__text">
+        <p>
+            I'm a software engineer. I love solving problems, photography, and traveling.
+            </p>
+            <p>As a software engineer I enjoy learning the different approaches to tackle a problem and my desire to make a positive difference.
+            Some things about me:</p>
+               <ul>
+                   <li>🧑‍💻 I'm currently working on front-end technologies</li>
+                   <li>📖 I'm finishing up a Bachelor's in Computer Science</li>
+                   <li>📷 Street photography is my favorite</li>
+                   <li>❔ Ask me a question! I love to share what I've learned</li>
+               </ul>
+
+
+
+        </p></div>
     </section>
-    <section id="projects">
-      <h2>Projects</h2>
+    <section class="container vertical--padding" id="projects">
+      <h2 class="section--title">Projects</h2>
 
       <a
         class="project-tile"
         href="https://jesusxambro.github.io/benavideztribute/"
         target="_blank"
       >
-        <img
+        <img class="project_image"
           src="/images/tribute-page.jpg"
           alt="Picture of MSG Benavidez Tribute Page"
       /></a>
     </section>
-    <section id="contact">
+    <section class="container vertical--padding" id="contact">
         <h2>Contact</h2>
   
         <a
