@@ -19,7 +19,7 @@ body {
   height: 100vh;
   justify-content: center;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("https://github.com/jesusxambro/fcc_portfolio/blob/main/images/JAmbro.jpg");
+    url("https://raw.githubusercontent.com/jesusxambro/fcc_portfolio/main/images/JAmbro.jpg");
   background-position: bottom center;
   background-repeat: no-repeat;
   background-size: cover;
