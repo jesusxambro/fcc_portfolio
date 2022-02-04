@@ -8,7 +8,7 @@ body {
   font-family: "Roboto", sans-serif;
   padding: 0px !important;
   margin: 0px;
-  background-color: black;
+  background-color: #333;
 }
 #profile-link {
   list-style-type: none;
@@ -40,9 +40,7 @@ body {
 .welcome p {
   font-size: 20px;
 }
-#project-tile {
-  border: 1px solid;
-}
+
 #navbar {
   display: flex;
   justify-content: flex-end;
@@ -89,6 +87,20 @@ body {
   flex-direction: column;
   color: white;
 }
+#projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  color: white;
+  padding: 0 4px;
+}
+#project-tile {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
 .section--title {
   font-size: 40px;
   color: white;
