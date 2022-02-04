@@ -94,13 +94,26 @@ body {
   flex-wrap: wrap;
   color: white;
   padding: 0 4px;
+  flex-direction: column;
+}
+.column {
+  display: flex;
+  max-width: 60%;
+  align-items: center;
+  padding: 0 4px;
+  margin: 10px;
 }
 #project-tile {
-  flex: 25%;
-  max-width: 25%;
   padding: 0 4px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
-
+.project_image {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 500px;
+  height: auto;
+}
 .section--title {
   font-size: 40px;
   color: white;
@@ -112,11 +125,7 @@ body {
   align-items: center;
   flex-direction: column;
 }
-.project_image {
-  max-width: 60%;
-  height: auto;
-  width: auto\9;
-}
+
 .social-images {
   width: 20%;
   height: auto;
@@ -124,5 +133,9 @@ body {
 @media (max-height: 800px) {
   p {
     font-size: 10px;
+  }
+  .column {
+    flex: 50%;
+    max-width: 50%;
   }
 }
