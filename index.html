@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-
+    <script src="https://kit.fontawesome.com/ba19b984e1.js" crossorigin="anonymous"></script>
     <title>Jesus Ambro's Portfolio</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -48,9 +48,9 @@
 
         </div>
     </section>
-    <section class="container vertical--padding projects" id="projects">
+    <section class="container vertical--padding projects " id="projects">
       <h2 class="section--title">Projects</h2>
-      <div class="column">
+      <div class="column column--mobile">
       <a
         title="Tribute Page"
         class="project-tile"
@@ -77,7 +77,7 @@
       <div class="project_shade"></div>
     </a>
     </div>
-    <div class="column">
+    <div class="column column--mobile">
       <a
       title="Tea Survey"
       class="project-tile"
@@ -106,18 +106,28 @@
   </div>
     </section>
     <section class="container vertical--padding" id="contact">
-        <h2>Contact</h2>
-  
+        <h2 class="section--title">Contact</h2>
+        <div class="column column--col contact--text">
+          <h3>Hey!</h3>
+          
+          <p>If you want to connect, contact me at my socials on the bottom.</p>
+        </div>
+        <div class="column">
         <a
           class="contact-tile"
           id="profile-link"
           href="https://github.com/jesusxambro"
           target="_blank"
         >
-          <img class="social-images"
-            src="https://raw.githubusercontent.com/jesusxambro/fcc_portfolio/main/images/github.png"
-            alt="Github logo"
-        /></a>
+       
+        <i class="fab fa-github social-images"></i>
+      
+          </a> 
+        <a class="contact-tile"
+        href="https://www.linkedin.com/"
+        target="_blank">
+        <i class="fab fa-linkedin social-images"></i></a>
+      </div>
       </section>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
   </body>

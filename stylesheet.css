@@ -105,6 +105,12 @@ body {
   padding: 0 4px;
   margin: 10px;
 }
+.column--col {
+  flex-direction: column;
+}
+.contact--text {
+  align-items: flex-start;
+}
 .project-tile {
   position: relative;
   margin: 10px;
@@ -138,17 +144,34 @@ body {
   align-items: center;
   flex-direction: column;
 }
+#contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  color: white;
+  padding: 0 4px;
+  flex-direction: column;
+  padding-bottom: 5rem;
+}
 
 .social-images {
-  width: 20%;
-  height: auto;
+  font-size: 40px;
+  color: white;
 }
-@media (max-height: 800px) {
+.contact-tile {
+  margin: 0 10px;
+}
+@media (max-width: 400px) {
   p {
-    font-size: 10px;
   }
-  .column {
-    flex: 50%;
-    max-width: 50%;
+  #navbar {
+    justify-content: center;
+  }
+  .column.contact--text {
+    max-width: none;
+  }
+  .column--mobile {
+    flex-direction: column;
   }
 }
